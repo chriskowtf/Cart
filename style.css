@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(25, 141, 50);
+}
+.cart{
+    background: white;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.img{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0px 35px;
+}
+.cart p {
+    color: gray;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+.label{
+    display: flex;
+    margin: 10px 0px;
+}
+.label p {
+    background-color: rgb(224, 63, 35);
+    padding: 2px 6px;
+    margin-right: 5px;
+    border-radius: 2px;
+    color: white;
+}
+h1{
+    font-size: 14px;
+    width: 75%;
+    margin: 0;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+.rating p{
+    margin-left: 10px;
+}
+.rating-icon{
+    margin: 0%;
+    padding: 0%;
+    line-height: 0;
+}
+.fas{
+    display: contents!important;
+    font-size: 10px!important;
+}
+.fa-star{
+    cursor: pointer;
+    color: rgb(255, 208, 0);
+    transform: scale(0.6);
+    display: flex;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h2{
+    color: rgb(224, 63, 35);
+}
+.price-h2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 5px 0px;
+}
+.cashback{
+    font-size: 12px;
+    color: black;
+    background-color: rgb(255, 245, 210);
+    padding: 5px;
+    margin-left: 15px;
+}
+h3{
+    
+    margin: 0;
+    text-decoration: line-through;
+    color: gray;
+    font-weight: 600;
+    font-size: 13px;
+
+}
+.button-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+button{
+    background: rgb(25, 141, 50);
+    border: 0;
+    border-radius: 50px;
+    width: auto;
+    padding: 10px 60px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+button:hover{
+    background: rgb(14, 109, 34);
+    transition: 0.3s;
+}
+.fa-heart, .fa-balance-scale{
+    cursor: pointer;
+    transition: 0.3s;
+    color: gray;
+    font-size: 20px!important;
+}
+.fa-heart:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: red;
+}
+.fa-balance-scale:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: rgb(25, 141, 50);
+}
